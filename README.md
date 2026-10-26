@@ -12,11 +12,11 @@ An interactive, reproducible engineering portfolio project by **Sibly Noman**, M
 
 ## 🌐 Live interactive website
 
-**[Launch ThermoDC Thermal Lab →](https://thermodc-thermal-lab.sibly-noman2003.chatgpt.site)**
+**[Launch ThermoDC Thermal Lab →](https://siblynoman2003-beep.github.io/thermodc/)**
 
 Explore the thermal simulator immediately in your browser—no installation or account required. The hosted visual experience includes live scenario sliders, a 12-rack inlet heatmap, a power breakdown, a load-sensitivity curve, and engineering caveats.
 
-The public website is a **standalone client-side visualization** implementing the same documented simplified equations as the Python model. It does not connect to the local SQLite telemetry database. For telemetry persistence, automated tests, and the reference Python implementation, run the repository's Streamlit application locally.
+The GitHub Pages website (source: [docs/index.html](docs/index.html)) is a **standalone client-side visualization** implementing the same documented simplified equations as the Python model. It does not connect to the local SQLite telemetry database. For telemetry persistence, automated tests, and the reference Python implementation, run the repository's Streamlit application locally.
 
 ## Features
 
