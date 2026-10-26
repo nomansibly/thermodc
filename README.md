@@ -10,6 +10,14 @@ An interactive, reproducible engineering portfolio project by **Sibly Noman**, M
 
 > **Engineering integrity:** ThermoDC is an **educational steady-state digital-twin prototype**, not CFD, a calibrated thermal plant model, a real-time BMS, or safety-rated monitoring software. All rack temperatures and telemetry are synthetic. Do not use for live operational decisions.
 
+## 🌐 Live interactive website
+
+**[Launch ThermoDC Thermal Lab →](https://thermodc-thermal-lab.sibly-noman2003.chatgpt.site)**
+
+Explore the thermal simulator immediately in your browser—no installation or account required. The hosted visual experience includes live scenario sliders, a 12-rack inlet heatmap, a power breakdown, a load-sensitivity curve, and engineering caveats.
+
+The public website is a **standalone client-side visualization** implementing the same documented simplified equations as the Python model. It does not connect to the local SQLite telemetry database. For telemetry persistence, automated tests, and the reference Python implementation, run the repository's Streamlit application locally.
+
 ## Features
 
 - **Interactive dashboard:** six sliders for IT utilization, supply air, relative airflow, cooling COP, recirculation, and ambient temperature.
